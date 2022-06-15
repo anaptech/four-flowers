@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>FourFlowers</title>
+      <link rel="stylesheet" href="dist/css/style.css" />
+      <link rel="stylesheet" href="lib/remix-icon/css/remixicon.css" />
+      <link rel="stylesheet" href="lib/swiper/css/swiper-bundle.min.css" />
+   </head>
+   <body>
+      <header>
+         <nav>
+            <div class="container">
+               <div class="row">
+                  <div class="brand-wrapper px-4 sm:px-6 lg:px-0">
+                     <strong>
+                        <a href="#" onclick="goToTop()">FourFlowers</a>
+                     </strong>
+                  </div>
+                  <div class="menu-wrapper">
+                     <button class="toggler" type="button">
+                        <span class="ri ri-menu-3-line" id="nav-toggler"></span>
+                     </button>
+                     <menu id="nav-menu">
+                        <ul>
+                           <li class="active">
+                              <a href="#" onclick="goToTop()">Home</a>
+                           </li>
+                           <li>
+                              <a href="#about">About</a>
+                           </li>
+                           <li>
+                              <a href="#product">Product</a>
+                           </li>
+                           <li>
+                              <a href="#contact">Contact</a>
+                           </li>
+                           <li>
+                              <a href="cart.html">Cart</a>
+                           </li>
+                           <li>
+                              <a href="#login">Login</a>
+                           </li>
+                        </ul>
+                     </menu>
+                  </div>
+               </div>
+            </div>
+         </nav>
+         <section id="hero">
+            <div class="container">
+               <div class="row">
+                  <div class="text">
+                     <h1 class="title">Get the Bouquet of Flowers You Want</h1>
+                     <p class="subtitle"><span>Find various types of flowers at affordable</span> prices for events or your loved ones</p>
+                     <a href="#product" class="btn btn-primary">Explore</a>
+                  </div>
+                  <picture>
+                     <img src="dist/img/sweet-kiss-elegant.jpg" alt="Sweet Kiss-Elegant" />
+                  </picture>
+               </div>
+            </div>
+         </section>
+      </header>
+      <main>
+         <section id="about">
+            <div class="container">
+               <h2 class="title">About</h2>
+               <p class="subtitle">
+                  FourFlowers provides the best luxury corporate flower delivery service in Bogor. From the design of hand bouquets, table arrangements, for your loved ones and flower stands to complete event decorations - our dedicated
+                  representatives can meet all your business needs.
+               </p>
+            </div>
+         </section>
+         <section id="product">
+            <div class="container" id="swiper-container">
+               <h2 class="title">Products</h2>
+               <div class="row swiper-wrapper">
+                  <div class="card-product swiper-slide">
+                     <div class="image">
+                        <img src="dist/img/sweet-kiss-elegant.jpg" alt="Sweet Kiss-Elegant" />
+                     </div>
+                     <div class="content">
+                        <h5>Sweet Kiss-Elegant</h5>
+                        <p>IDR 550.000</p>
+                     </div>
+                     <div class="option">
+                        <button type="button" class="btn btn-primary addToCart">
+                           <span class="ri ri-shopping-cart-line"></span>
+                           <span>Add to cart</span>
+                        </button>
+                        <a href="product-detail.html" class="btn btn-secondary">
+                           <span class="ri ri-information-line"></span>
+                           <span>Detail</span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="card-product swiper-slide">
+                     <div class="image">
+                        <img src="dist/img/sweet-beginning.jpg" alt="Sweet Beginning" />
+                     </div>
+                     <div class="content">
+                        <h5>Sweet Beginning</h5>
+                        <p>IDR 520.000</p>
+                     </div>
+                     <div class="option">
+                        <button type="button" class="btn btn-primary addToCart">
+                           <span class="ri ri-shopping-cart-line"></span>
+                           <span>Add to cart</span>
+                        </button>
+                        <a href="product-detail.html" class="btn btn-secondary">
+                           <span class="ri ri-information-line"></span>
+                           <span>Detail</span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="card-product swiper-slide">
+                     <picture>
+                        <img src="dist/img/sweet-kiss-blast.jpg" alt="Sweet Kiss-Blast" />
+                     </picture>
+                     <div class="content">
+                        <h5>Sweet Kiss-Blast</h5>
+                        <p>IDR 550.000</p>
+                     </div>
+                     <div class="option">
+                        <button type="button" class="btn btn-primary addToCart">
+                           <span class="ri ri-shopping-cart-line"></span>
+                           <span>Add to cart</span>
+                        </button>
+                        <a href="product-detail.html" class="btn btn-secondary">
+                           <span class="ri ri-information-line"></span>
+                           <span>Detail</span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="card-product swiper-slide">
+                     <div class="image">
+                        <img src="dist/img/sweet-kiss-me.jpg" alt="Sweet Kiss-Me" />
+                     </div>
+                     <div class="content">
+                        <h5>Sweet Kiss-Me</h5>
+                        <p>IDR 550.000</p>
+                     </div>
+                     <div class="option">
+                        <button type="button" class="btn btn-primary addToCart">
+                           <span class="ri ri-shopping-cart-line"></span>
+                           <span>Add to cart</span>
+                        </button>
+                        <a href="product-detail.html" class="btn btn-secondary">
+                           <span class="ri ri-information-line"></span>
+                           <span>Detail</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+         </section>
+      </main>
+      <footer id="contact">
+         <div class="container">
+            <div class="row">
+               <div class="text">
+                  <h3 class="brand">
+                     <a href="#" onclick="goToTop()">FourFlowers</a>
+                  </h3>
+                  <div class="description">
+                     <p>
+                        <strong>FourFlowers</strong> provides the best luxury corporate flower delivery service in Bogor. From the design of hand bouquets, table arrangements, for your loved ones and flower stands to complete event
+                        decorations - our dedicated representatives can meet all your business needs.
+                     </p>
+                  </div>
+               </div>
+               <menu class="contact">
+                  <h3>Contact</h3>
+                  <li>
+                     <span class="ri ri-map-pin-line"></span>
+                     <a href="#contact">Bogor, Indonesia</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-mail-line"></span>
+                     <a href="#contact">fourflowers@mail.com</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-whatsapp-line"></span>
+                     <a href="#contact">+62 812-345-6789</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-instagram-line"></span>
+                     <a href="#contact">@fourflowers</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-facebook-box-line"></span>
+                     <a href="#contact">FourFlowers</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-youtube-line"></span>
+                     <a href="#contact">FourFlowers TV</a>
+                  </li>
+               </menu>
+               <menu class="link">
+                  <h3>Useful Link</h3>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="#" onclick="goToTop()">Home</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="#about">About</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="#product">Product</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="#contact">Contact</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="cart.html">Cart</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="#">Login</a>
+                  </li>
+               </menu>
+            </div>
+            <div class="copyright">
+               <p>Copyright&copy; 2022 FourFlowers. All rights reserved.</p>
+            </div>
+         </div>
+      </footer>
+      <script src="lib/swiper/js/swiper-bundle.min.js"></script>
+      <script src="lib/sweetalert2/js/sweetalert2.all.min.js"></script>
+      <script src="dist/js/script.js"></script>
+   </body>
+</html>

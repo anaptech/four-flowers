@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>FourFlowers</title>
+      <link rel="stylesheet" href="dist/css/style.css" />
+      <link rel="stylesheet" href="lib/remix-icon/css/remixicon.css" />
+      <link rel="stylesheet" href="lib/datatables/css/jquery.dataTables.min.css" />
+   </head>
+   <body>
+      <header>
+         <nav>
+            <div class="container">
+               <div class="row">
+                  <div class="brand-wrapper px-4 sm:px-6 lg:px-0">
+                     <strong>
+                        <a href="/">FourFlowers</a>
+                     </strong>
+                  </div>
+                  <div class="menu-wrapper">
+                     <button class="toggler" type="button">
+                        <span class="ri ri-menu-3-line" id="nav-toggler"></span>
+                     </button>
+                     <menu id="nav-menu">
+                        <ul>
+                           <li>
+                              <a href="/">Home</a>
+                           </li>
+                           <li>
+                              <a href="/#about">About</a>
+                           </li>
+                           <li>
+                              <a href="/#product">Product</a>
+                           </li>
+                           <li>
+                              <a href="#contact">Contact</a>
+                           </li>
+                           <li class="active">
+                              <a href="cart.html">Cart</a>
+                           </li>
+                           <li>
+                              <a href="#login">Login</a>
+                           </li>
+                        </ul>
+                     </menu>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <main id="cart">
+         <div class="container">
+            <table class="display nowrap" id="table" width="100%">
+               <thead>
+                  <tr>
+                     <th>No</th>
+                     <th>Image</th>
+                     <th>Product</th>
+                     <th>Price</th>
+                     <th>Quantity</th>
+                     <th>Total</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>1.</td>
+                     <td width="50">
+                        <div class="table-img">
+                           <img src="dist/img/sweet-kiss-elegant.jpg" alt="Sweet Kiss-Elegant" />
+                        </div>
+                     </td>
+                     <td>Sweet Kiss-Elegant</td>
+                     <td>IDR 550.000</td>
+                     <td>1</td>
+                     <td>IDR 550.000</td>
+                  </tr>
+                  <tr>
+                     <td>2.</td>
+                     <td width="50">
+                        <div class="table-img">
+                           <img src="dist/img/sweet-kiss-blast.jpg" alt="Sweet Kiss-Blast" />
+                        </div>
+                     </td>
+                     <td>Sweet Kiss-Blast</td>
+                     <td>IDR 550.000</td>
+                     <td>1</td>
+                     <td>IDR 550.000</td>
+                  </tr>
+               </tbody>
+            </table>
+            <section class="table-footer">
+               <div class="subtotal">
+                  <p>Subtotal</p>
+                  <p>IDR 1.100.000</p>
+               </div>
+               <div class="action">
+                  <a href="/#product" class="btn btn-secondary">
+                     <span class="ri ri-arrow-left-s-line"></span>
+                     <span>Continue shopping</span>
+                  </a>
+                  <a href="#" class="btn btn-primary">
+                     <span class="ri ri-shopping-bag-3-line"></span>
+                     <span>Checkout</span>
+                  </a>
+               </div>
+            </section>
+         </div>
+      </main>
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="text">
+                  <h3 class="brand">
+                     <a href="/">FourFlowers</a>
+                  </h3>
+                  <div class="description">
+                     <p>
+                        <strong>FourFlowers</strong> provides the best luxury corporate flower delivery service in Bogor. From the design of hand bouquets, table arrangements, for your loved ones and flower stands to complete event
+                        decorations - our dedicated representatives can meet all your business needs.
+                     </p>
+                  </div>
+               </div>
+               <menu class="contact">
+                  <h3>Contact</h3>
+                  <li>
+                     <span class="ri ri-map-pin-line"></span>
+                     <a href="#contact">Bogor, Indonesia</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-mail-line"></span>
+                     <a href="#contact">fourflowers@mail.com</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-whatsapp-line"></span>
+                     <a href="#contact">+62 812-345-6789</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-instagram-line"></span>
+                     <a href="#contact">@fourflowers</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-facebook-box-line"></span>
+                     <a href="#contact">FourFlowers</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-youtube-line"></span>
+                     <a href="#contact">FourFlowers TV</a>
+                  </li>
+               </menu>
+               <menu class="link">
+                  <h3>Useful Link</h3>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="/">Home</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="/#about">About</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="/#product">Product</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="/#contact">Contact</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="#" onclick="goToTop()">Cart</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="#">Login</a>
+                  </li>
+               </menu>
+            </div>
+            <div class="copyright">
+               <p>Copyright&copy; 2022 FourFlowers. All rights reserved.</p>
+            </div>
+         </div>
+      </footer>
+      <script src="lib/jquery/js/jquery-3.5.1.js"></script>
+      <script src="lib/datatables/js/jquery.dataTables.min.js"></script>
+      <script src="dist/js/script.js"></script>
+   </body>
+</html>

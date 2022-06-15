@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>FourFlowers</title>
+      <link rel="stylesheet" href="dist/css/style.css" />
+      <link rel="stylesheet" href="lib/remix-icon/css/remixicon.css" />
+   </head>
+   <body>
+      <header>
+         <nav>
+            <div class="container">
+               <div class="row">
+                  <div class="brand-wrapper px-4 sm:px-6 lg:px-0">
+                     <strong>
+                        <a href="/">FourFlowers</a>
+                     </strong>
+                  </div>
+                  <div class="menu-wrapper">
+                     <button class="toggler" type="button">
+                        <span class="ri ri-menu-3-line" id="nav-toggler"></span>
+                     </button>
+                     <menu id="nav-menu">
+                        <ul>
+                           <li>
+                              <a href="/">Home</a>
+                           </li>
+                           <li>
+                              <a href="/#about">About</a>
+                           </li>
+                           <li class="active">
+                              <a href="/#product">Product</a>
+                           </li>
+                           <li>
+                              <a href="#contact">Contact</a>
+                           </li>
+                           <li>
+                              <a href="cart.html">Cart</a>
+                           </li>
+                           <li>
+                              <a href="#login">Login</a>
+                           </li>
+                        </ul>
+                     </menu>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <main id="productDetail">
+         <div class="container">
+            <div class="row">
+               <picture>
+                  <img src="dist/img/sweet-kiss-elegant.jpg" alt="Sweet Kiss-Elegant" />
+               </picture>
+               <div class="description">
+                  <h2>Sweet Kiss-Elegant</h2>
+                  <p>A vibrant bouquet of flowers to make her smile and love blooms for you.</p>
+                  <h3>IDR 500.000</h3>
+                  <form>
+                     <div class="group">
+                        <label for="">Quantity</label>
+                        <div class="quantity">
+                           <button class="decreaseBtn" type="button">
+                              <span class="ri ri-subtract-line"></span>
+                           </button>
+                           <input class="quantityInput" type="text" value="1" min="1" readonly />
+                           <button class="increaseBtn" type="button">
+                              <span class="ri ri-add-line"></span>
+                           </button>
+                        </div>
+                     </div>
+                     <div class="group">
+                        <label for="gift-card-note">Gift Card Note</label>
+                        <textarea id="gift-card-note" rows="5"></textarea>
+                     </div>
+                     <button class="btn btn-primary" type="button" style="border: 0">
+                        <span class="ri ri-shopping-cart-line"></span>
+                        <span>Add to cart</span>
+                     </button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer id="contact">
+         <div class="container">
+            <div class="row">
+               <div class="text">
+                  <h3 class="brand">
+                     <a href="/">FourFlowers</a>
+                  </h3>
+                  <div class="description">
+                     <p>
+                        <strong>FourFlowers</strong> provides the best luxury corporate flower delivery service in Bogor. From the design of hand bouquets, table arrangements, for your loved ones and flower stands to complete event
+                        decorations - our dedicated representatives can meet all your business needs.
+                     </p>
+                  </div>
+               </div>
+               <menu class="contact">
+                  <h3>Contact</h3>
+                  <li>
+                     <span class="ri ri-map-pin-line"></span>
+                     <a href="#contact">Bogor, Indonesia</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-mail-line"></span>
+                     <a href="#contact">fourflowers@mail.com</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-whatsapp-line"></span>
+                     <a href="#contact">+62 812-345-6789</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-instagram-line"></span>
+                     <a href="#contact">@fourflowers</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-facebook-box-line"></span>
+                     <a href="#contact">FourFlowers</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-youtube-line"></span>
+                     <a href="#contact">FourFlowers TV</a>
+                  </li>
+               </menu>
+               <menu class="link">
+                  <h3>Useful Link</h3>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="/">Home</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="/#about">About</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="/#product">Product</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="/#contact">Contact</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="cart.html">Cart</a>
+                  </li>
+                  <li>
+                     <span class="ri ri-arrow-right-s-line"></span>
+                     <a href="#">Login</a>
+                  </li>
+               </menu>
+            </div>
+            <div class="copyright">
+               <p>Copyright&copy; 2022 FourFlowers. All rights reserved.</p>
+            </div>
+         </div>
+      </footer>
+      <script src="dist/js/script.js"></script>
+   </body>
+</html>
